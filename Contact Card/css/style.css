@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+    max-width: 100%;
+    padding-top: 25%;
+}
+
+.container {
+    background-color: aqua;
+    padding: 20px 20px 20px 20px;
+}
+
