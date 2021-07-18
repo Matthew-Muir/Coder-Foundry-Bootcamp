@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, rgb(5, 5, 139), #911659);
+}
+
+.container>form {
+    background-color: aliceblue;
+    border-radius: 15px;
+
+}
+
+.container .col {
+    margin: 10px 10px 10px 10px;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+label.form-label {
+    color: black;
+}

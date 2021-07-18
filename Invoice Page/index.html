@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Invoice Exercise</title>
+  </head>
+  <body>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <button class="text-light bg-dark">Print This Page</button>
+                </div>
+            </div>
+
+            <div class="row"> <!--Logo top section @ top of page-->
+                <div class="col-8">
+                    <img src="/img/IdeaFoundryLogo.png" alt="Logo" style="width: 100%;">
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <p style="font-size: 20pt; font-weight: bolder;">Client No: 4098</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row"> <!--Content between top logo and bottom table-->
+                <div class="col-6 d-flex justify-content-start">
+                    <p><span style="font-weight: bold;">Date:</span> 07/15/2021</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <p><span style="font-weight: bold;">Invoice No:</span> 19005</p>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="row"> <!--Content above table-->
+                <div class="col-6 d-flex justify-content-start">
+                    <p><span style="font-weight: bold;">Invoice To:</span>
+                    <br>Lola Bola<br>
+                    Comfy Couch<br>
+                    In the Living Room</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <p><span style="font-weight: bold;">Pay To:</span>
+                    <br>Prof Kitty<br>
+                    Top of Cabinets<br>
+                     In the Kitchen</p>
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-conent-between g-0">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Service</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Rate</th>
+                                <th scope="col">QTY</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="table-light">
+                                <td>Design</td>
+                                <td>Website Design</td>
+                                <td>$60.00</td>
+                                <td>10</td>
+                                <td>$600.00</td>
+                            </tr>
+                            <tr>
+                                <td>Development</td>
+                                <td>Website Development</td>
+                                <td>$150.00</td>
+                                <td>10</td>
+                                <td>$1500.00</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>Deployment</td>
+                                <td>Deployment and Hosting</td>
+                                <td>$450.00</td>
+                                <td>1</td>
+                                <td>$450.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">Sub Total:</td>
+                                <td>$2550.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">Tax:</td>
+                                <td>$0.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">Total</td>
+                                <td>$2550.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p><span style="font-weight: bold;">NOTE:</span> This is a computer generated receipt and does not require a phyiscal signature</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
